@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@aragon/connect": "^0.4.2",
+    "ethers": "^5.0.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
