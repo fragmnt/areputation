@@ -14,6 +14,15 @@ contract Kudos {
         bytes24 description;
         bytes16 name;
         uint32 timestamp;
+        address organization;
+        address application;
+    }
+
+    struct Vote {
+        uint256 id;
+        uint256 vote_id;
+        uint32 number_of;
+        address voter;
     }
 
     mapping(uint256 => Task) public tasks;
