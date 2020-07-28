@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@aragon/connect-thegraph": "^0.4.2",
+    "graphql-tag": "^2.10.4"
+  }
+}
