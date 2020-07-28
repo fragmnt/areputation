@@ -1,4 +1,5 @@
-# Aragon Reputation Building App
+# Kudos
+##### Aragon Reputation Building App
 
 Based on Aragon Connect, The Graph Subgraphs & Ethereum Smart Contracts
 
