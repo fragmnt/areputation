@@ -1,6 +1,9 @@
 {
   "dependencies": {
     "@aragon/connect-thegraph": "^0.4.2",
-    "graphql-tag": "^2.10.4"
+    "fs-extra": "^9.0.1",
+    "graphql-tag": "^2.10.4",
+    "path": "^0.12.7",
+    "solc": "^0.6.12"
   }
 }
