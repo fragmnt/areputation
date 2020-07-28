@@ -18,9 +18,13 @@ const contractPath = path.resolve(__dirname, "contracts", "src", "Kudos.sol");
 
 // Get the content of *.sol
 const contractSource = fs.readFileSync(contractPath, "utf8");
+const csrc = JSON.stringify(contractSource);
 
 // This code compile the contract code and return the contracts object
-const output = solc.compile(contractSource, 1).contracts;
+const output = solc.compile(csrc);
+ouput = JSON.parse(output);
+console.log(contractSource)
+
 
 // Ensures that the directory 'Build' exists. If the directory structure does not exist, it is created.
 fs.ensureDirSync(buildPath);
